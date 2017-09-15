@@ -2,6 +2,8 @@ const express = require('express')
 
 const app = express()
 
+app.enable('trust proxy')
+
 app.get('/', (req, res) => {
   const { ip, headers } = req
   const UA = headers['user-agent']
