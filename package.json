@@ -1,0 +1,19 @@
+{
+  "name": "request-header-parser-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve-local": "PORT=2000 nodemon --inspect server"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
